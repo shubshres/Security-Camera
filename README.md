@@ -6,10 +6,10 @@ Created a Security Camera using Computer Vision in Python3
 - Set up python project environment (Using PyCharm or equivalent)
 - Use github's main.py
 - Edit github.main
-- Line 29: Update TWILIO_SID to yours
-- Line 30: Update TWILIO_AUTH_TOKEN to yours
-- Line 139: Update 'YOUR TWILIO PHONE NUMBER'
-- Line 140: Update 'YOUR PHONE NUMBER'
+  - Line 29: Update TWILIO_SID to yours
+  - Line 30: Update TWILIO_AUTH_TOKEN to yours
+  - Line 139: Update 'YOUR TWILIO PHONE NUMBER'
+  - Line 140: Update 'YOUR PHONE NUMBER'
 - Copy countdown.mp3 to project directory
 - Install Dependencies (Described Below)
 - Run Program!
