@@ -1,5 +1,5 @@
 # Security Camera
-Created a Security Camera using Computer Vision in Python3
+Created a Security Camera using Computer Vision in Python 3 that will send users text messages if motion is detected
 
 ## To run the program: ## 
 - Create Twilio Account
