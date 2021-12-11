@@ -23,14 +23,14 @@ pip install opencv-python
 https://pypi.org/project/opencv-python/
 import cv2
 
-## Install Text-to-Speech Conversion library for python ##
+## Install Text-to-Speech Conversion library for Python ##
 
 pip3 install pyttsx3
 
 https://pypi.org/project/pyttsx3/
 
 
-## Install Audio input/output stream library for python ##
+## Install Audio input/output stream library for Python ##
 
 pip3 install PyAudio
 
