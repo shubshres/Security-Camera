@@ -95,7 +95,6 @@ def run_camera():
 
             # if motion is detected set motion detection to true
             motion_detected = True
-            print("motion Detected in function")
 
             # if motion is detected break out of the loop
             if motion_detected:
@@ -111,7 +110,6 @@ def run_camera():
         cv2.imshow('Security Camera', frame1)
 
 
-print("Running Timer")
 # wait for 30 seconds for user to go away
 # check if timer audio is present
 try:
@@ -122,7 +120,6 @@ try:
     playsound(timer_audio)
 except:
     # if timer audio is not present, just sleep for 30 seconds
-    print("i am now sleeping")
     # run camera after 30 seconds of enabling
     time.sleep(30)
     # pass without errors
@@ -142,13 +139,9 @@ while run_program:
             from_="YOUR TWILIO PHONE NUMBER HERE",
             to="YOUR PHONE NUMBER HERE"
         )
-
-        print(motion_detected)
-
-        print("CONSOLE UPDATE: MESSAGE SUCCESSFULLY SENT...")
-
+        
+        # resetting motion detected boolean
         motion_detected = False
-        print(motion_detected)
+
         # run camera again after 30 seconds of idling and rerun program
         time.sleep(30)
-        print("rerunning")
