@@ -114,19 +114,19 @@ def run_camera():
 print("Running Timer")
 # wait for 30 seconds for user to go away
 # check if timer audio is present
-# try:
-#     # getting the countdown sounds path
-#     timer_audio = os.getcwd()
-#     timer_audio = timer_audio + "/countdown.mp3"
-#     # playing the timer audio
-#     playsound(timer_audio)
-# except:
-#     # if timer audio is not present, just sleep for 30 seconds
-#     print("i am now sleeping")
-#     # run camera after 30 seconds of enabling
-#     time.sleep(30)
-#     # pass without errors
-#     pass
+try:
+    # getting the countdown sounds path
+    timer_audio = os.getcwd()
+    timer_audio = timer_audio + "/countdown.mp3"
+    # playing the timer audio
+    playsound(timer_audio)
+except:
+    # if timer audio is not present, just sleep for 30 seconds
+    print("i am now sleeping")
+    # run camera after 30 seconds of enabling
+    time.sleep(30)
+    # pass without errors
+    pass
 
 
 while run_program:
