@@ -49,7 +49,7 @@ def run_camera():
     # capturing video from camera using the cv2 package
     # passed number 2 since I have two cameras plugged into the computer i tested
     # if running on personal computer try passing in 0
-    camera = cv2.VideoCapture(2)
+    camera = cv2.VideoCapture(0)
 
     # running code while the camera is on
     while (camera.isOpened()) and (motion_detected != True):
